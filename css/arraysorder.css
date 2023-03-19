@@ -1,0 +1,41 @@
+ /* Estilos para el body */
+.body {
+   
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    text-align: center;
+    padding-top: 50px; /* Añadido para separar el contenido del encabezado */
+}
+
+/* Estilos para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; /* Añadido para separar el formulario del encabezado */
+}
+
+/* Estilos para el input */
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    width: 400px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Añadido para que el ancho incluya el padding */
+}
+
+/* Estilos para el botón */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilos para el resultado */
+h2, p {
+    margin: 20px;
+}

@@ -1,0 +1,109 @@
+/*
+----------Home--------------------
+*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: #fff59d;
+}
+
+.centrar {
+    width: 80%;
+    margin:auto;
+    max-width: 1280px;
+    min-height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.centrar .title{
+    text-align: center;
+    font-size: 50px;
+}
+
+.centrar .subtitle{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    
+}
+
+.centrar .img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+-----------end home ---------------
+
+*/
+
+
+/*
+Botones 
+*/
+.button {
+    display: block;
+    padding: 15px 25px;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #19475b;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #1b3039}
+  
+  .button:active {
+    background-color: #1b3039;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  /*
+  ---------------end botones----------------------
+  */
+
+  /*
+  ---------- imput------------------
+  */
+.bloqueImput input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bloqueImput {
+    text-align: center;
+}
+
+
+input{
+    border-radius: 4px;
+    width: 50%;
+}
+
+input:focus {
+    border: 3px solid #555;
+    border-radius: 8px;
+}
+
+  /*
+  -------end input-----------------
+  */
